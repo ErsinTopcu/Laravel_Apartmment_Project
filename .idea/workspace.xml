@@ -20,7 +20,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="Template uygulandı.">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/dataTables/dataTables.responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/startmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/dataTables/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/dataTables/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/morris-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/startmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/notifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/panels-wells.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/pages/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +268,7 @@
       <workItem from="1610746090951" duration="611000" />
       <workItem from="1612207315923" duration="6274000" />
       <workItem from="1612297872914" duration="10829000" />
-      <workItem from="1612634021559" duration="15974000" />
+      <workItem from="1612634021559" duration="23733000" />
     </task>
     <task id="LOCAL-00001" summary="Template uygulandı.">
       <created>1612665656494</created>
@@ -207,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612665656494</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Template uygulandı.">
+      <created>1612666168370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612666168370</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,24 +308,24 @@
     <option name="LAST_COMMIT_MESSAGE" value="Template uygulandı." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="712" y="243" key="NewPhpClassDialog" timestamp="1612663747194">
+    <state x="712" y="243" key="NewPhpClassDialog" timestamp="1612711250506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="712" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612663747194" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1612663829031">
+    <state x="712" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612711250506" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1612711266729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612663829031" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612711266729" />
     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612210793694" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1612666158782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612666158782" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607281759753" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612665524592">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612666178453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612665524592" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612666178453" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612215240153" />
     <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612215228924">
       <screen x="1920" y="0" width="1920" height="1040" />
