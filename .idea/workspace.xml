@@ -19,254 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/blog-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/baguetteBox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/classic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/classic.date.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/classic.time.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/css/superslides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/about-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/about-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/all-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/avt-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/blog-img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/blog-img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/blog-img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/blog-img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/blog-img-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/blog-img-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/blog-img-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/blog-img-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/blog-img-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/footer-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/gallery-img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/gallery-img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/gallery-img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/gallery-img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/gallery-img-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/gallery-img-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/img-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/img-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/img-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/img-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/img-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/inner-blog-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/post-img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/post-img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/post-img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/qt-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/quotations-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/slider-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/slider-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/slider-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/stuff-img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/stuff-img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/stuff-img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/stuff-img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/stuff-img-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/images/stuff-img-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/baguetteBox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/contact-form-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/form-validator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/images-loded.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/isotope.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/jquery.mapify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/jquery.superslides.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/legacy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/picker.date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/picker.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/php/form-process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/reservation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/live-dinner/stuff.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/TEMPLATE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/css/bootstrap-social.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/css/dataTables/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/css/dataTables/dataTables.responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/css/metisMenu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/css/morris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/css/startmin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/css/timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/dataTables/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/dataTables/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.colorhelpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.errorbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.fillbetween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.navigate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.symbol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.threshold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/flot/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/morris-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/raphael.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/js/startmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/blank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/flot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/forms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/morris.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/notifications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/panels-wells.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/tables.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/startmin-master/pages/typography.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/baguetteBox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/classic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/classic.date.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/classic.time.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/superslides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/about-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/about-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/all-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/avt-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blog-img-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/footer-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery-img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery-img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery-img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery-img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery-img-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/gallery-img-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/img-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/img-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/img-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/img-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/img-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/inner-blog-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post-img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post-img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post-img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/qt-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/quotations-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/slider-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/slider-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/slider-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/stuff-img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/stuff-img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/stuff-img-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/stuff-img-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/stuff-img-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/stuff-img-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/baguetteBox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/contact-form-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/form-validator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/images-loded.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/isotope.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.mapify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.superslides.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/legacy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/picker.date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/picker.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/php/form-process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_ announcement.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_contact.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_gallery.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_products.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_slider.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+    <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="Template uygulandı.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -444,8 +198,16 @@
       <workItem from="1610746090951" duration="611000" />
       <workItem from="1612207315923" duration="6274000" />
       <workItem from="1612297872914" duration="10829000" />
-      <workItem from="1612634021559" duration="15144000" />
+      <workItem from="1612634021559" duration="15974000" />
     </task>
+    <task id="LOCAL-00001" summary="Template uygulandı.">
+      <created>1612665656494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612665656494</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +227,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Template uygulandı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Template uygulandı." />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="243" key="NewPhpClassDialog" timestamp="1612663747194">
@@ -477,14 +240,15 @@
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612663829031" />
     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612210793694" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1607281759753">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1612666158782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612666158782" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607281759753" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612639396563">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612665524592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612639396563" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612665524592" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612215240153" />
     <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612215228924">
       <screen x="1920" y="0" width="1920" height="1040" />
