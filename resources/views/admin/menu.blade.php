@@ -15,8 +15,9 @@
                     <div class="col-lg-12">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                Menu List
+                                <button type="button" class="btn btn-outline btn-success"><a href="{{route('admin_menu_add')}}">Add Menu</a></button>
                             </div>
+
                             <!-- /.panel-heading -->
                             <div class="panel-body">
                                 <div class="table-responsive">
@@ -43,7 +44,7 @@
                                             <td>{{ $rs->title }}</td>
                                             <td class="center">{{ $rs->status }}</td>
                                             <td class="center">Edit</td>
-                                            <td class="center">Delete</td>
+                                            <td class="center"> <a href="{{route('admin_menu_delete', ['id' => $rs->id])}}" onclick="return confirm('Delete ! Are You Sure?')" >Delete</a></td>
                                         </tr>
                                         @endforeach
                                         </tbody>

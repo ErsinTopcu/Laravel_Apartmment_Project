@@ -19,7 +19,7 @@ class CreateMenusTable extends Migration
             $table->string('title',150);
             $table->string('keywords')->nullable();
             $table->string('description')->nullable();
-            $table->string('image',100)->nullable();
+            $table->string('image',110)->nullable();
             $table->string('slug',100)->nullable();
             $table->string('status',5)->nullable()->default('False');
             $table->timestamps(); //created_at ve updated_at otomatik oluşuyor

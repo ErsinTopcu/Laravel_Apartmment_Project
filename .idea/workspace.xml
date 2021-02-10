@@ -19,16 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="Admin panel login and logout">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_10_102646_create_menus_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_10_104606_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_blank.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterDir="false" />
+    <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="Database işlemleri">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_10_102646_create_menus_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_10_102646_create_menus_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +183,14 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\php\Laravel_Apartment_Project\resources\views\admin" />
       <recent name="C:\php\Laravel_Apartment_Project\resources\views\home" />
     </key>
   </component>
@@ -220,7 +217,7 @@
       <workItem from="1612958151725" duration="594000" />
       <workItem from="1612958920112" duration="126000" />
       <workItem from="1612959134512" duration="4486000" />
-      <workItem from="1612963939277" duration="7330000" />
+      <workItem from="1612963939277" duration="22821000" />
     </task>
     <task id="LOCAL-00001" summary="Template uygulandı.">
       <created>1612665656494</created>
@@ -250,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612739472243</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Database işlemleri">
+      <created>1612972138335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612972138335</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +280,7 @@
     <MESSAGE value="Template uygulandı." />
     <MESSAGE value="Admin panel Controller ve template" />
     <MESSAGE value="Admin panel login and logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Admin panel login and logout" />
+    <MESSAGE value="Database işlemleri" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database işlemleri" />
   </component>
 </project>

@@ -16,10 +16,9 @@ class MenuController extends Controller
      */
     public function index()
     {
-        $datalist = DB::select('select * from menus');
         //print_r($datalist);
         //exit();
-
+        $datalist = DB::select('select * from menus');
         return view('admin.menu',['datalist' => $datalist]);
     }
 
@@ -28,9 +27,32 @@ class MenuController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function add()
     {
-        //
+        $datalist = DB::table('menus')->get()->where('parent_id',0);
+        return  view('admin.menu_add',['datalist' => $datalist]);
+    }
+
+
+
+
+    /**
+     * Insert Data
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function create(Request $request)
+    {
+        DB::table('menus')->insert([
+           'parent_id' =>  $request->input('parent_id'),
+           'title' =>  $request->input('title'),
+           'keywords' =>  $request->input('keywords'),
+           'description' =>  $request->input('description'),
+           'slug' =>  $request->input('slug'),
+           'status' =>  $request->input('status')
+        ]);
+
+        return redirect()->route('admin_menu');
     }
 
     /**
@@ -84,8 +106,9 @@ class MenuController extends Controller
      * @param  \App\Models\Menu  $menu
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Menu $menu)
+    public function destroy(Menu  $menu,$id)
     {
-        //
+        DB::table('menus')->where('id','=',$id)->delete();
+        return redirect()->route('admin_menu');
     }
 }
