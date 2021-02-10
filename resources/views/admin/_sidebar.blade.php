@@ -14,52 +14,15 @@
                 <!-- /input-group -->
             </li>
             <li>
-                <a href="{{asset('assets')}}/admin/index.html" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                <a href="{{ route('admin_home') }}" class="active"><i class="fa fa-dashboard fa-fw"></i> Home</a>
             </li>
+
             <li>
-                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
-                <ul class="nav nav-second-level">
-                    <li>
-                        <a href="{{asset('assets')}}/admin/flot.html">Flot Charts</a>
-                    </li>
-                    <li>
-                        <a href="{{asset('assets')}}/admin/morris.html">Morris.js Charts</a>
-                    </li>
-                </ul>
-                <!-- /.nav-second-level -->
+                <a href="{{ route('admin_menu') }}" class="active"><i class="fa fa-dashboard fa-fw"></i> Menu</a>
             </li>
+
             <li>
-                <a href="{{asset('assets')}}/admin/tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
-            </li>
-            <li>
-                <a href="{{asset('assets')}}/admin/forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
-                <ul class="nav nav-second-level">
-                    <li>
-                        <a href="{{asset('assets')}}/admin/panels-wells.html">Panels and Wells</a>
-                    </li>
-                    <li>
-                        <a href="{{asset('assets')}}/admin/buttons.html">Buttons</a>
-                    </li>
-                    <li>
-                        <a href="{{asset('assets')}}/admin/notifications.html">Notifications</a>
-                    </li>
-                    <li>
-                        <a href="{{asset('assets')}}/admin/typography.html">Typography</a>
-                    </li>
-                    <li>
-                        <a href="{{asset('assets')}}/admin/icons.html"> Icons</a>
-                    </li>
-                    <li>
-                        <a href="{{asset('assets')}}/admin/grid.html">Grid</a>
-                    </li>
-                </ul>
-                <!-- /.nav-second-level -->
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                <a href="#"><i class="fa fa-sitemap fa-fw"></i> Products<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
                         <a href="#">Second Level Item</a>
@@ -88,18 +51,7 @@
                 </ul>
                 <!-- /.nav-second-level -->
             </li>
-            <li>
-                <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
-                <ul class="nav nav-second-level">
-                    <li>
-                        <a href="{{asset('assets')}}/admin/blank.html">Blank Page</a>
-                    </li>
-                    <li>
-                        <a href="{{asset('assets')}}/admin/login.html">Login Page</a>
-                    </li>
-                </ul>
-                <!-- /.nav-second-level -->
-            </li>
+
         </ul>
     </div>
 </div>
