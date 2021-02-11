@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="Database işlemleri">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" afterDir="false" />
+    <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="Menu create and edit operations">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/menu_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_10_102646_create_menus_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_10_102646_create_menus_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +217,7 @@
       <workItem from="1612958151725" duration="594000" />
       <workItem from="1612958920112" duration="126000" />
       <workItem from="1612959134512" duration="4486000" />
-      <workItem from="1612963939277" duration="22821000" />
+      <workItem from="1612963939277" duration="27398000" />
     </task>
     <task id="LOCAL-00001" summary="Template uygulandı.">
       <created>1612665656494</created>
@@ -254,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612972138335</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Menu create and edit operations">
+      <created>1613001330058</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613001330058</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +288,7 @@
     <MESSAGE value="Admin panel Controller ve template" />
     <MESSAGE value="Admin panel login and logout" />
     <MESSAGE value="Database işlemleri" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database işlemleri" />
+    <MESSAGE value="Menu create and edit operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu create and edit operations" />
   </component>
 </project>
