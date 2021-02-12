@@ -22,6 +22,9 @@
             </li>
 
             <li>
+                <a href="{{ route('admin_content') }}" class="active"><i class="fa fa-dashboard fa-fw"></i> Contents</a>
+            </li>
+            <li>
                 <a href="#"><i class="fa fa-sitemap fa-fw"></i> Products<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>

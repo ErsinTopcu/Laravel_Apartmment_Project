@@ -19,10 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="Menu create and edit operations">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/menu_edit.blade.php" afterDir="false" />
+    <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="Menu create and edit operations v2">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_11_235455_create_contents_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_12_003150_content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/content.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/content_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -217,7 +223,8 @@
       <workItem from="1612958151725" duration="594000" />
       <workItem from="1612958920112" duration="126000" />
       <workItem from="1612959134512" duration="4486000" />
-      <workItem from="1612963939277" duration="27398000" />
+      <workItem from="1612963939277" duration="31658000" />
+      <workItem from="1613116152635" duration="12272000" />
     </task>
     <task id="LOCAL-00001" summary="Template uygulandı.">
       <created>1612665656494</created>
@@ -261,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613001330058</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Menu create and edit operations v2">
+      <created>1613012116517</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613012116517</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +303,7 @@
     <MESSAGE value="Admin panel login and logout" />
     <MESSAGE value="Database işlemleri" />
     <MESSAGE value="Menu create and edit operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menu create and edit operations" />
+    <MESSAGE value="Menu create and edit operations v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu create and edit operations v2" />
   </component>
 </project>
