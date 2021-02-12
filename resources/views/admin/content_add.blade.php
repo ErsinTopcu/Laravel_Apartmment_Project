@@ -46,7 +46,15 @@
                         <div class="form-group row">
                             <label for="lname" class="col-sm-1 text-right control-label col-form-label">Detail</label>
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" name="detail" placeholder="Detail">
+                                <textarea class="form-control" id="summary-ckeditor" name="detail"></textarea>
+                                <script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+                                <script>
+                                    CKEDITOR.replace( 'detail', {
+                                        filebrowserUploadUrl: "{{route('admin_content_upload', ['_token' => csrf_token() ])}}",
+                                        filebrowserUploadMethod: 'form'
+                                    });
+                                </script>
+                                <!--input type="text" class="form-control" name="detail" placeholder="Detail">-->
                             </div>
                         </div>
 

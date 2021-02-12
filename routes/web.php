@@ -54,6 +54,10 @@ Route::prefix('content')->group(function () {
     Route::post('/update/{id}', [\App\Http\Controllers\Admin\ContentController::class, 'update'])->name('admin_content_update');
     Route::get('/delete/{id}', [\App\Http\Controllers\Admin\ContentController::class, 'destroy'])->name('admin_content_delete');
     Route::get('/show', [\App\Http\Controllers\Admin\ContentController::class, 'show'])->name('admin_content_show');
+    Route::resource('editor','CKEditorController');
+    Route::post('ckeditor/image_upload', 'CKEditorController@upload')->name('admin_content_upload');
+
+
 
 });
 
@@ -64,4 +68,8 @@ Route::get('/admin/logout', [HomeController::class, 'logout'])->name('admin_logo
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
+
+    Route::resource('editor','CKEditorController');
+    Route::post('ckeditor/image_upload', 'CKEditorController@upload')->name('admin_content_upload');
+
 })->name('dashboard');
