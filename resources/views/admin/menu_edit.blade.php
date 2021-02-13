@@ -18,14 +18,14 @@
                     <div class="card-body">
                         <h4 class="card-title">Personal Info</h4>
                         <div class="form-group row">
-                            <label for="fname"  class="col-sm-1 text-right control-label col-form-label">Parent Id</label>
+                            <label for="fname"  class="col-sm-1 text-right control-label col-form-label">Menu</label>
                             <div class="col-sm-11">
                                 <select class="select2 form-control custom-select select2-hidden-accessible"
                                         style="width: 100%; height:36px;" data-select2-id="1" tabindex="-1"
                                         aria-hidden="true" name="parent_id">
 
                                     @foreach ( $datalist as $rs)
-                                        <option value="{{ $rs->id }}" @if ($rs->id == $data->parent_id) selected="selected" @endif>{{ $rs->title }}</option>
+                                        <option value="{{ $rs->id }}" @if ($rs->id == $data->parent_id) selected="selected" @endif>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option>
                                     @endforeach
                                 </select>
                             </div>

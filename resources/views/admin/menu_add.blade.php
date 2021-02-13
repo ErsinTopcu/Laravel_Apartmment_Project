@@ -25,7 +25,7 @@
                                         aria-hidden="true" name="parent_id">
                                     <option value="0" data-select2-id="3">Main Menu</option>
                                     @foreach ( $datalist as $rs)
-                                        <option value="{{ $rs->id }}" data-select2-id="97">{{ $rs->title }}</option >
+                                        <option value="{{ $rs->id }}"> {{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}} </option >
                                     @endforeach
                                 </select>
                             </div>

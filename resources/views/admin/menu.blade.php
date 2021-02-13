@@ -26,7 +26,7 @@
                                         <thead>
                                         <tr>
                                             <th>ID</th>
-                                            <th>Parent ID</th>
+                                            <th>Menu</th>
                                             <th>Title</th>
                                             <th>Status</th>
                                             <th>Edit</th>
@@ -40,11 +40,11 @@
 
                                         <tr class="odd gradeX">
                                             <td>{{ $rs->id }}</td>
-                                            <td>{{ $rs->parent_id }}</td>
+                                            <td>{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</td>
                                             <td>{{ $rs->title }}</td>
                                             <td class="center">{{ $rs->status }}</td>
-                                            <td class="center"><a href="{{route('admin_menu_edit',['id'=>$rs->id])}}" ><i class="fa fa-edit fa-fw"></i></a></td>
-                                            <td class="center"> <a href="{{route('admin_menu_delete', ['id' => $rs->id])}}" onclick="return confirm('Delete ! Are You Sure?')" ><i class="fa fa-trash-o fa-fw"></i></a></td>
+                                            <td class="center"><a href="{{route('admin_menu_edit',['id'=>$rs->id])}}" ><img src="{{asset('assets/admin/images')}}/edit.png" height="25"></a></a></td>
+                                            <td class="center"> <a href="{{route('admin_menu_delete', ['id' => $rs->id])}}" onclick="return confirm('Delete ! Are You Sure?')" ><img src="{{asset('assets/admin/images')}}/delete.png" height="25"></a></td>
                                         </tr>
                                         @endforeach
                                         </tbody>

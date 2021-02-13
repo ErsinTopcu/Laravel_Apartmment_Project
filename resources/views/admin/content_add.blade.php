@@ -16,15 +16,15 @@
                 <form class="form-horizontal" action="{{route('admin_content_store')}}" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="card-body">
-                        <h4 class="card-title">Personal Info</h4>
+                        <h4 class="card-title"></h4>
                         <div class="form-group row">
-                            <label for="fname"  class="col-sm-1 text-right control-label col-form-label">Parent</label>
+                            <label for="fname"  class="col-sm-1 text-right control-label col-form-label">Menu</label>
                             <div class="col-sm-11">
                                 <select class="select2 form-control custom-select select2-hidden-accessible"
                                         style="width: 100%; height:36px;" data-select2-id="1" tabindex="-1"
                                         aria-hidden="true" name="menu_id">
                                     @foreach ( $datalist as $rs)
-                                        <option value="{{ $rs->id }}" data-select2-id="97">{{ $rs->title }}</option >
+                                        <option value="{{ $rs->id }}" data-select2-id="97">{{\App\Http\Controllers\Admin\MenuController::getParentsTree($rs,$rs->title)}}</option >
                                     @endforeach
                                 </select>
                             </div>
