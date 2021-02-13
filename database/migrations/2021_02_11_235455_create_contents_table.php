@@ -22,7 +22,7 @@ class CreateContentsTable extends Migration
             $table->integer('menu_id',)->nullable();
             $table->integer('user_id',)->nullable();
             $table->string('type',)->nullable();
-            $table->string('detail',)->nullable();
+            $table->text('detail')->nullable();
             $table->string('slug',100)->nullable();
             $table->string('status',5)->nullable()->default('False');
             $table->timestamps();

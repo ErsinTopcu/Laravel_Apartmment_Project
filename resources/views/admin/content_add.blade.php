@@ -13,7 +13,7 @@
                 <!-- /.col-lg-12 -->
             </div>
             <div class="card">
-                <form class="form-horizontal" action="{{route('admin_content_store')}}" method="post">
+                <form class="form-horizontal" action="{{route('admin_content_store')}}" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="card-body">
                         <h4 class="card-title">Personal Info</h4>
@@ -76,6 +76,12 @@
                             <label for="lname" class="col-sm-1 text-right control-label col-form-label">Slug</label>
                             <div class="col-sm-11">
                                 <input type="text" class="form-control"  name="slug" placeholder="Slug">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lname" class="col-sm-1 text-right control-label col-form-label">Image</label>
+                            <div class="col-sm-11">
+                                <input type="file"  name="image" class="form-control"  >
                             </div>
                         </div>
                         <div class="form-group row" data-select2-id="95">

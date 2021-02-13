@@ -45,23 +45,31 @@ Route::middleware('auth')->prefix('admin')->prefix('admin')->group(function () {
 
 
 #Content
-Route::prefix('content')->group(function () {
-    //Route assigned name "admin.users"...
-    Route::get('/', [\App\Http\Controllers\Admin\ContentController::class, 'index'])->name('admin_content');
-    Route::get('/create', [\App\Http\Controllers\Admin\ContentController::class, 'create'])->name('admin_content_add');
-    Route::post('/store', [\App\Http\Controllers\Admin\ContentController::class, 'store'])->name('admin_content_store');
-    Route::get('/edit/{id}', [\App\Http\Controllers\Admin\ContentController::class, 'edit'])->name('admin_content_edit');
-    Route::post('/update/{id}', [\App\Http\Controllers\Admin\ContentController::class, 'update'])->name('admin_content_update');
-    Route::get('/delete/{id}', [\App\Http\Controllers\Admin\ContentController::class, 'destroy'])->name('admin_content_delete');
-    Route::get('/show', [\App\Http\Controllers\Admin\ContentController::class, 'show'])->name('admin_content_show');
-    Route::resource('editor','CKEditorController');
-    Route::post('ckeditor/image_upload', 'CKEditorController@upload')->name('admin_content_upload');
+    Route::prefix('content')->group(function () {
+        //Route assigned name "admin.users"...
+        Route::get('/', [\App\Http\Controllers\Admin\ContentController::class, 'index'])->name('admin_content');
+        Route::get('/create', [\App\Http\Controllers\Admin\ContentController::class, 'create'])->name('admin_content_add');
+        Route::post('/store', [\App\Http\Controllers\Admin\ContentController::class, 'store'])->name('admin_content_store');
+        Route::get('/edit/{id}', [\App\Http\Controllers\Admin\ContentController::class, 'edit'])->name('admin_content_edit');
+        Route::post('/update/{id}', [\App\Http\Controllers\Admin\ContentController::class, 'update'])->name('admin_content_update');
+        Route::get('/delete/{id}', [\App\Http\Controllers\Admin\ContentController::class, 'destroy'])->name('admin_content_delete');
+        Route::get('/show', [\App\Http\Controllers\Admin\ContentController::class, 'show'])->name('admin_content_show');
+        Route::resource('editor','CKEditorController');
+        Route::post('ckeditor/image_upload', 'ContentController@upload')->name('admin_content_upload');
 
+    });
 
+    #Content Image Gallery
+    Route::prefix('image')->group(function () {
+        Route::get('/create/{content_id}', [\App\Http\Controllers\Admin\ImageController::class, 'create'])->name('admin_image_add');
+        Route::post('/store/{content_id}', [\App\Http\Controllers\Admin\ImageController::class, 'store'])->name('admin_image_store');
+        Route::get('/delete/{id}/{content_id}', [\App\Http\Controllers\Admin\ImageController::class, 'destroy'])->name('admin_image_delete');
+        Route::get('/show', [\App\Http\Controllers\Admin\ImageController::class, 'show'])->name('admin_image_show');
 
+    });
 });
 
-});
+
 Route::get('/admin/login', [HomeController::class, 'login'])->name('admin_login');
 Route::post('/admin/logincheck', [HomeController::class, 'logincheck'])->name('admin_logincheck');
 Route::get('/admin/logout', [HomeController::class, 'logout'])->name('admin_logout');
@@ -69,7 +77,6 @@ Route::get('/admin/logout', [HomeController::class, 'logout'])->name('admin_logo
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 
-    Route::resource('editor','CKEditorController');
-    Route::post('ckeditor/image_upload', 'CKEditorController@upload')->name('admin_content_upload');
+
 
 })->name('dashboard');

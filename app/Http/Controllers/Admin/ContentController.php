@@ -7,6 +7,7 @@ use App\Models\Content;
 use App\Models\Menu;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class ContentController extends Controller
 {
@@ -53,6 +54,8 @@ class ContentController extends Controller
         $data->detail = $request->input('detail');
         $data->slug = $request->input('slug');
         $data->status = $request->input('status');
+        $data->image = Storage::putFile('public/images', $request->file('image'));
+
         $data->save();
         return redirect()->route('admin_content');
 
@@ -101,6 +104,8 @@ class ContentController extends Controller
         $data->detail = $request->input('detail');
         $data->slug = $request->input('slug');
         $data->status = $request->input('status');
+        $data->image = Storage::putFile('public/images', $request->file('image'));
+
         $data->save();
         return redirect()->route('admin_content');
     }
@@ -111,16 +116,17 @@ class ContentController extends Controller
      * @param \App\Models\Content $content
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Content $content,$id)
+    public function destroy(Content $content, $id)
     {
         $data = Content::find($id);
         $data->delete();
 
         return redirect()->route('admin_content');
     }
+
     public function upload(Request $request)
     {
-        if ($request->hasFile('upload')) {
+        if ($request->hasFile('admin_content_upload')) {
             //get filename with extension
             $filenamewithextension = $request->file('upload')->getClientOriginalName();
 

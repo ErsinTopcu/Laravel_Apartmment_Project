@@ -15,7 +15,8 @@
                     <div class="col-lg-12">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <button type="button" class="btn btn-outline btn-success"><a href="{{route('admin_content_add')}}">Add Content</a></button>
+                                <button type="button" class="btn btn-outline btn-success"><a
+                                        href="{{route('admin_content_add')}}">Add Content</a></button>
                             </div>
 
                             <!-- /.panel-heading -->
@@ -29,9 +30,9 @@
                                             <th>Menu</th>
                                             <th>Title</th>
                                             <th>Type</th>
-                                            <th>Detail</th>
                                             <th>Keywords</th>
                                             <th>Image</th>
+                                            <th>Image Gallery</th>
                                             <th>Status</th>
                                             <th>Edit</th>
                                             <th>Delete</th>
@@ -40,20 +41,30 @@
                                         <tbody>
 
                                         @foreach ( $datalist as $rs)
-                                            <p>  </p>
+                                            <p></p>
 
-                                        <tr class="odd gradeX">
-                                            <td>{{ $rs->id }}</td>
-                                            <td>{{ $rs->menu_id }}</td>
-                                            <td>{{ $rs->title }}</td>
-                                            <td>{{ $rs->type }}</td>
-                                            <td>{{ $rs->detail }}</td>
-                                            <td>{{ $rs->keywords }}</td>
-                                            <td>{{ $rs->image }}</td>
-                                            <td class="center">{{ $rs->status }}</td>
-                                            <td class="center"><a href="{{route('admin_content_edit',['id'=>$rs->id])}}" ><i class="fa fa-edit fa-fw"></i></a></td>
-                                            <td class="center"> <a href="{{route('admin_content_delete', ['id' => $rs->id])}}" onclick="return confirm('Delete ! Are You Sure?')" ><i class="fa fa-trash-o fa-fw"></i></a></td>
-                                        </tr>
+                                            <tr class="odd gradeX">
+                                                <td>{{ $rs->id }}</td>
+                                                <td>{{ $rs->menu_id }}</td>
+                                                <td>{{ $rs->title }}</td>
+                                                <td>{{ $rs->type }}</td>
+                                                <td>{{ $rs->keywords }}</td>
+                                                <td style="text-align:center">
+                                                    @if ($rs->image)
+                                                        <img src="{{ Storage::url($rs->image)}}" height="60" alt="">
+                                                    @endif
+                                                </td>
+                                                <td style="text-align:center"><a
+                                                        href="{{route('admin_image_add',['content_id'=>$rs->id])}}"
+                                                        onclick="return !window.open(this.href,'','top=50 left=100,height=700')">
+                                                        <img src="{{asset('assets/admin/images')}}/gallery.png" height="25"></a></td>
+                                                <td class="center">{{ $rs->status }}</td>
+                                                <td style="text-align:center"><a
+                                                        href="{{route('admin_content_edit',['id'=>$rs->id])}}"><img src="{{asset('assets/admin/images')}}/edit.png" height="25"></a></td>
+                                                <td style="text-align:center"><a
+                                                        href="{{route('admin_content_delete', ['id' => $rs->id])}}"
+                                                        onclick="return confirm('Delete ! Are You Sure?')"><img src="{{asset('assets/admin/images')}}/delete.png" height="25"></a></td>
+                                            </tr>
                                         @endforeach
                                         </tbody>
                                     </table>
@@ -83,30 +94,30 @@
                 <script src="{{asset('assets')}}/admin/js/startmin.js"></script>
 
 
-@endsection
-@section('footer')
+            @endsection
+            @section('footer')
 
-    <!-- jQuery -->
-        <script src="{{asset('assets')}}/admin/js/jquery.min.js"></script>
+                <!-- jQuery -->
+                    <script src="{{asset('assets')}}/admin/js/jquery.min.js"></script>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="{{asset('assets')}}/admin/js/bootstrap.min.js"></script>
+                    <!-- Bootstrap Core JavaScript -->
+                    <script src="{{asset('assets')}}/admin/js/bootstrap.min.js"></script>
 
-        <!-- Metis Menu Plugin JavaScript -->
-        <script src="{{asset('assets')}}/admin/js/metisMenu.min.js"></script>
+                    <!-- Metis Menu Plugin JavaScript -->
+                    <script src="{{asset('assets')}}/admin/js/metisMenu.min.js"></script>
 
-        <!-- DataTables JavaScript -->
-        <script src="{{asset('assets')}}/admin/js/dataTables/jquery.dataTables.min.js"></script>
-        <script src="{{asset('assets')}}/admin/js/dataTables/dataTables.bootstrap.min.js"></script>
+                    <!-- DataTables JavaScript -->
+                    <script src="{{asset('assets')}}/admin/js/dataTables/jquery.dataTables.min.js"></script>
+                    <script src="{{asset('assets')}}/admin/js/dataTables/dataTables.bootstrap.min.js"></script>
 
-        <!-- Custom Theme JavaScript -->
-        <script src="{{asset('assets')}}/admin/js/startmin.js"></script>
+                    <!-- Custom Theme JavaScript -->
+                    <script src="{{asset('assets')}}/admin/js/startmin.js"></script>
 
-        <script>
-            $(document).ready(function() {
-                $('#dataTables-example').DataTable({
-                    responsive: true
-                });
-            });
-        </script>
+                    <script>
+                        $(document).ready(function () {
+                            $('#dataTables-example').DataTable({
+                                responsive: true
+                            });
+                        });
+                    </script>
 @endsection

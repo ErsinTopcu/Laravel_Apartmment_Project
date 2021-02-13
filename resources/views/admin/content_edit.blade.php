@@ -13,7 +13,7 @@
                 <!-- /.col-lg-12 -->
             </div>
             <div class="card">
-                <form class="form-horizontal" action="{{route('admin_content_update',['id'=>$data->id])}}" method="post">
+                <form class="form-horizontal" action="{{route('admin_content_update',['id'=>$data->id])}}" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="card-body">
                         <h4 class="card-title">Personal Info</h4>
@@ -46,7 +46,14 @@
                         <div class="form-group row">
                             <label for="lname" class="col-sm-1 text-right control-label col-form-label">Detail</label>
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" value="{{$data->detail}}" name="detail" placeholder="Detail">
+                                <textarea class="form-control" id="summary-ckeditor"  name="detail">{{$data->detail}}</textarea>
+                                <script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+                                <script>
+                                    CKEDITOR.replace( 'detail', {
+                                        filebrowserUploadUrl: "{{route('admin_content_upload', ['_token' => csrf_token() ])}}",
+                                        filebrowserUploadMethod: 'form'
+                                    });
+                                </script>
                             </div>
                         </div>
 
@@ -68,6 +75,17 @@
                             <label for="lname" class="col-sm-1 text-right control-label col-form-label">Slug</label>
                             <div class="col-sm-11">
                                 <input type="text" class="form-control" value="{{$data->slug}}" name="slug" placeholder="Slug">
+                            </div>
+                            <div class="form-group row">
+                                <label for="lname" class="col-sm-1  text-right control-label col-form-label">Image</label>
+                                <div class="col-sm-11">
+                                    <input type="file"  name="image" value="{{$data->image}}" class="form-control">
+
+                                    @if ($data->image)
+                                        <img src="{{ Storage::url($data->image)}}" height="60" alt="">
+                                    @endif
+                                </div>
+
                             </div>
                         </div>
                         <div class="form-group row" data-select2-id="95">
