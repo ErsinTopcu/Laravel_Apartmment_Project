@@ -19,14 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="Content image Gallery">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_13_001240_setting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
+    <list default="true" id="e37e3a9c-1275-4ee4-8fbb-4686ebb3b595" name="Default Changelist" comment="Admin web site setting page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_13_000140_create_settings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_13_000140_create_settings_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +223,7 @@
       <workItem from="1612959134512" duration="4486000" />
       <workItem from="1612963939277" duration="31658000" />
       <workItem from="1613116152635" duration="25210000" />
-      <workItem from="1613143762442" duration="41211000" />
+      <workItem from="1613143762442" duration="46615000" />
     </task>
     <task id="LOCAL-00001" summary="Template uygulandı.">
       <created>1612665656494</created>
@@ -296,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613174576283</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Admin web site setting page">
+      <created>1613209623657</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613209623657</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +364,7 @@
     <MESSAGE value="Add content CRUD operations" />
     <MESSAGE value="CK editöre implementation v1" />
     <MESSAGE value="Content image Gallery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content image Gallery" />
+    <MESSAGE value="Admin web site setting page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Admin web site setting page" />
   </component>
 </project>

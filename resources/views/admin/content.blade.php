@@ -45,7 +45,7 @@
 
                                             <tr class="odd gradeX">
                                                 <td>{{ $rs->id }}</td>
-                                                <td>{{ $rs->menu_id }}</td>
+                                                <td>{{ $rs->menu->title}}</td>
                                                 <td>{{ $rs->title }}</td>
                                                 <td>{{ $rs->type }}</td>
                                                 <td>{{ $rs->keywords }}</td>
